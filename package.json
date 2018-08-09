@@ -1,0 +1,19 @@
+{
+  "name": "ol-browserify",
+  "version": "1.0.0",
+  "description": "Using browserify and the ol package",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify -g [ babelify --presets [ \"@babel/preset-env\" ] ] -g uglifyify --entry main.js > bundle.js"
+  },
+  "dependencies": {
+    "ol": "^5.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "babelify": "^9.0.0",
+    "browserify": "^16.2.2",
+    "uglifyify": "^5.0.1"
+  }
+}
