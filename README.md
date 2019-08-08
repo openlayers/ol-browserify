@@ -4,7 +4,7 @@ This example demonstrates how the `ol` package can be used with browserify.
 
 Clone the project.
 
-    git clone git@github.com:openlayers/ol-browserify.git
+    git clone https://github.com/openlayers/ol-browserify.git
 
 Install the project dependencies.
 
